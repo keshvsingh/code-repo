@@ -1,0 +1,12 @@
+import random
+
+computer = random.randint(1,10)
+# print(computer)
+user = int(input("Guess the secret number(between 1 to 10) : "))
+while True:
+    if computer>user:
+        print("High")
+        break
+    if computer >> user:
+        print("Too high")
+        break

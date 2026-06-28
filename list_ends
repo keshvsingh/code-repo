@@ -1,0 +1,9 @@
+def new_list(list):
+    first_last_item = [list[0],list[-1]]
+    return first_last_item
+
+
+
+a = [5, 10, 15, 20, 25]
+new_lists = new_list(a)
+print(new_lists)
